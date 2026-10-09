@@ -17,17 +17,17 @@ Ejecuta secuencialmente los siguientes comandos en tu terminal. El script dividi
 python train.py --n-estimators 100 --max-depth 10 --min-samples-split 2
 ```
 
-**2. Subajuste (Modelo muy simple):**
+**2. Modelo muy simple:**
 ```bash
 python train.py --n-estimators 50 --max-depth 5 --min-samples-split 2
 ```
 
-**3. Modelo Balanceado (Mayor profundidad, más árboles):**
+**3. Mayor profundidad, más árboles:**
 ```bash
 python train.py --n-estimators 200 --max-depth 8 --min-samples-split 5
 ```
 
-**4. Riesgo de Sobreajuste (Profundidad muy alta):**
+**4. Profundidad muy alta:**
 ```bash
 python train.py --n-estimators 150 --max-depth 20 --min-samples-split 2
 ```
